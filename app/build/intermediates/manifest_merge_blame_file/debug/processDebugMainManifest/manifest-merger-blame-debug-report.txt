@@ -20,54 +20,56 @@
 15-->[androidx.core:core:1.9.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:3:5-14:19
+17-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:5:5-19:19
 18        android:allowBackup="true"
-18-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:4:9-35
+18-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.9.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="true"
-22        android:label="Lite Spend" >
-22-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:5:9-35
-23        <activity
-23-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:6:9-13:20
-24            android:name="com.example.litespend.MainActivity"
-24-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:7:13-41
-25            android:exported="true" >
-25-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:8:13-36
-26            <intent-filter>
-26-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:9:13-12:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:10:17-69
-27-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:10:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:11:17-77
-29-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:11:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-35            android:authorities="com.example.litespend.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+22        android:label="Lite Spend"
+22-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:7:9-35
+23        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+23-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:8:9-65
+24        <activity
+24-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:10:9-17:20
+25            android:name="com.example.litespend.MainActivity"
+25-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:11:13-41
+26            android:exported="true" >
+26-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:12:13-36
+27            <intent-filter>
+27-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:13:13-16:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:14:17-69
+28-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:14:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:15:17-77
+30-->D:\youtube\lite-spend\lite-spend\app\src\main\AndroidManifest.xml:15:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+36            android:authorities="com.example.litespend.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DCL\scoop\apps\gradle\current\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>

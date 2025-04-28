@@ -19,7 +19,8 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="true"
-        android:label="Lite Spend" >
+        android:label="Lite Spend"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.example.litespend.MainActivity"
             android:exported="true" >
