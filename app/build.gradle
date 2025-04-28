@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.litespend'
     compileSdk 34
 
     defaultConfig {
@@ -17,6 +18,9 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
         }
     }
 }

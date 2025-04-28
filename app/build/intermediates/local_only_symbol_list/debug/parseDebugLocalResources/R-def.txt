@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+id add_btn
+id amount
+id balance
+id list
+id note
+id spend_btn
+id stats_btn
+id timestamp
+id type
+layout activity_main
+layout dialog_input
+layout list_item
+string app_name
